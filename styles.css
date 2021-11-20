@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+/*Global colors*/
+:root {
+    --light-gray: #dddddd;
+    --red-pink: #F05454;
+    --dark-blue: #30475E;
+    --blackish: #222831;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+.custom-navbar {
+    background-color: var(--blackish);
+    font-family: 'Balsamiq Sans', cursive;
+    transition: all 0.3 ease-in-out;
+    position: sticky;
+}
+
+.custom-navbar .nav-link {
+    color: var(--light-gray);
+}
+
+.custom-navbar .nav-link:hover {
+    transform: scale(1.2);
+}
+
+.custom-navbar .navbar-brand:hover {
+    transform: scale(1.2);
+}
+
+.custom-navbar .navbar-brand{
+    font-family: "Pacifico", cursive;
+    color: var(--red-pink);
+    font-size: 24px;
+}
+
+.custom-navbar .navbar-toggler {
+    background-color: var(--red-pink);
+    color: var(--blackish)
+}
+
+.a-grow {
+    transition: all 0.5 ease-in-out;
+}
+
+.a-grow:hover {
+    transform: scale(1.1);
+}
+
+.h-grow {
+    transition: all 0.5 ease-in-out;
+}
+
+.h-grow:hover {
+    transform: scale(1.2);
+    color: var(--red-pink)
+}
+
+.question-heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: var(--blackish);
+    color: var(--red-pink);
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 10px;
+}
+
+.common-text {
+    font-family: "M PLUS 2", serif;
+    font-size: 21px;
+}
+
+.custom-card {
+    border-width: 10px;
+    border-color: var(--blackish)
+}
+
+.custom-card .card-body{
+    background-color: var(--dark-blue) !important;
+}
+
+.custom-card h5 {
+    color: var(--red-pink); 
+}
+
+.custom-card p {
+    color: var(--light-gray)
+}
+
+.custom-card .btn {
+    background-color: var(--red-pink);
+    color: var(--light-gray);
+    border-color: var(--blackish)
+}
+
+
+
+
+
